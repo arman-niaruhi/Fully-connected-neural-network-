@@ -49,7 +49,7 @@ class Net(nn.Module):
             
     def train(self, optimizer, loss, lr = 0.03, num_epochs = 10, output_size = 5000, input_size = 10000):
     """
-    Adjust all of the hyper parmas here
+    Adjust all of the hyperparmas here
     """
         
         x = torch.rand(5,input_size)
